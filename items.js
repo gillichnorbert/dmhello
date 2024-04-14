@@ -1,9 +1,23 @@
+// Kategóriák: 
+// "Soda": "Üdítő",
+// "Shot": "Rövidital",
+// "Longdrink": "Longdrink",
+// "Water":"Víz",
+// "Cocktail":"Koktél",
+// "Cup":"Pohár",
+// "Other":"Egyéb",
+// "Beer":"Sör",
+// "Energydrink":"Energiaital",
+// "Spritz":"Fröccs",
+// "Wine":"Bor",
+// "Champagne":"Pezsgő"
+
 var items = [
     {
       "name": "Repohár",
       "amount": "",
       "price": 800,
-      "category": "Cups"
+      "category": "Cup"
     },
     {
         "name": "Üdítők",

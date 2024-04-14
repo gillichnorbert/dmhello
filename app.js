@@ -127,7 +127,7 @@ const categoryTranslations = {
 categories.forEach(category => {
     const button = document.createElement('button');
     button.textContent = categoryTranslations[category];// Magyar fordítás használata
-    button.classList.add('btn', 'btn-primary','btn-lg', 'mx-2');
+    button.classList.add('btn', 'btn-secondary','btn-lg', 'mx-2');
     button.addEventListener('click', function() {
         filterItemsByCategory(category);
     });

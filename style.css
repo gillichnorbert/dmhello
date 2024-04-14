@@ -170,7 +170,7 @@ header {
 }
 
 .Soda {
-    background-color: red;
+    background-color:cadetblue;
     border: 1px solid #ccc;
     border-radius: 5px;
     display: flexbox;
@@ -178,8 +178,19 @@ header {
     max-width: 11rem;
     min-height: 100px;
     max-height: 100px;
+    color: white;
 }
 
+.Cup {background-color: red;
+border: 1px solid #ccc;
+border-radius: 5px;
+display: flexbox;
+min-width: 11rem;
+max-width: 11rem;
+min-height: 100px;
+max-height: 100px;
+color: white;
+}
 
 .card-title {
     font-size: 1em;
@@ -298,7 +309,7 @@ thead {
     font-weight: bold;
     text-align: center;
     align-items: center;
-    padding: 5px;
+
 }
 
 
