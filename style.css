@@ -362,12 +362,12 @@ thead {
 }
 
 #backButton {
-    height: 80px;
+    height: 100%;
     width: 250px;
 }
 
 .btn {
-    height: 80px;
+    height: 100%;
 }
 
 .d-flex {
