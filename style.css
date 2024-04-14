@@ -53,7 +53,9 @@ header {
     max-height: 73.3%;
     position: fixed;
     overflow-y: scroll;
+    scroll-behavior: smooth;
     min-height: 100px;
+    overflow-x: hidden;
     
 }
 
