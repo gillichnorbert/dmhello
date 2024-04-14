@@ -1,5 +1,11 @@
 var items = [
     {
+      "name": "Repohár",
+      "amount": "",
+      "price": 800,
+      "category": "Cups"
+    },
+    {
         "name": "Üdítők",
         "amount": "5 dl",
         "price": 1190,
