@@ -281,7 +281,7 @@ var items = [
       "name": "Pezsgő üvegre",
       "amount": "0,75 l",
       "price": 6900,
-      "category": "Champagne"
+      "category": "Spritz"
     }]
 
 const itemPlace = document.getElementById('itemPlace');

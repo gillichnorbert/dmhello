@@ -119,7 +119,7 @@ const categoryTranslations = {
   "Other":"Egyéb",
   "Beer":"Sör",
   "Energydrink":"Energiaital",
-  "Spritz":"Fröccs",
+  "Spritz":"Fröccs, Bor",
   "Wine":"Bor",
   "Champagne":"Pezsgő"
 };
