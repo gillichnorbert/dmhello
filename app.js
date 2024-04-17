@@ -6,6 +6,58 @@ const summaryBody = document.getElementById('summeryBody');
 const total = document.getElementById('total');
 const clearListBtn = document.getElementById('clearListBtn');
 const backButton = document.getElementById('backButton');
+const multiplyButton2 = document.getElementById("szorzas2");
+const multiplyButton3 = document.getElementById("szorzas3");
+const multiplyButton4 = document.getElementById("szorzas4");
+const multiplyInput = document.getElementById("multiplyInput");
+
+
+multiplyButton2.addEventListener("click", () =>{
+    if (itemList.length > 0) {
+        const lastItem = itemList[itemList.length - 1];
+        lastItem.piece *= 2;
+        updateListAndTotal();
+        saveItemListToSessionStorage();
+    }
+})
+
+multiplyButton3.addEventListener("click", () =>{
+    if (itemList.length > 0) {
+        const lastItem = itemList[itemList.length - 1];
+        lastItem.piece *= 3;
+        updateListAndTotal();
+        saveItemListToSessionStorage();
+    }
+})
+
+multiplyButton4.addEventListener("click", () =>{
+    if (itemList.length > 0) {
+        const lastItem = itemList[itemList.length - 1];
+        lastItem.piece *= 4;
+        updateListAndTotal();
+        saveItemListToSessionStorage();
+    }
+})
+
+
+
+
+multiplyInput.addEventListener('input', function() {
+    const mI = parseFloat(multiplyInput.value); // A parseFloat függvény segítségével számot kapunk
+    if (!isNaN(mI)) { // Ellenőrizzük, hogy valóban egy szám-e
+        if (itemList.length > 0) {
+            const lastItem = itemList[itemList.length - 1];
+            lastItem.piece += mI-1;
+            updateListAndTotal();
+            saveItemListToSessionStorage();
+            multiplyInput.value = '';
+        }
+    } else {
+        // Ha a felhasználó nem számot adott meg, akkor kezelhetjük ezt a helyzetet
+        console.log('Hiba: Nem számot adott meg!');
+    }
+});
+
 
 
 // Lista és végösszeg frissítése

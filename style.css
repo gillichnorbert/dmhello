@@ -237,7 +237,24 @@ color: white;
 
 }
 
+#multiplyInput {
+    width: 15%;
+    margin: 10px;
 
+}
+.input-group {
+    display: flex;
+  }
+  
+  .input-group .form-control {
+    flex: 1;
+    margin-right: 5px; /* Opcionális: térköz az input mező és a gombok között */
+  }
+  
+  .input-group .btn {
+    margin: 10px;
+    width: 15%;
+  }
 
 /* Fixált összegzés stílusok */
 .fixed-summary {
