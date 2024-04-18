@@ -144,7 +144,7 @@ function updateTotal() {
 clearListBtn.addEventListener('click', function() {
     itemList.length = 0; // Törlés az itemList tömbből
     updateListAndTotal(); // Lista és végösszeg frissítése
-    saveItemListToSessionStorage(); // Mentjük az üres itemList-et a sessionStorage-be
+    saveItemListToSessionStorage(); 
 });
 
 // Az itemList-et elmentjük a sessionStorage-be

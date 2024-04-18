@@ -250,6 +250,7 @@ td .form-control {
     flex: 1;
     margin-right: 5px; /* Opcionális: térköz az input mező és a gombok között */
     min-width: 4pc;
+    text-align: center;
   }
   
   .input-group .btn {
