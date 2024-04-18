@@ -64,7 +64,7 @@ function updateListAndTotal() {
         var row =`
             <tr>
                 <td>${item.name}</td>
-                <td><input type="number" class="form form-control" id="pieceInput_${index}" value="${item.piece}"></td> <!-- Egyedi id generálása az index alapján és darabszám beállítása -->
+                <td><input type="number" class="form form-control" id="pieceInput_${index}" value="${item.piece}" pattern="[0-9]" inputmode="numeric"></td> <!-- Egyedi id generálása az index alapján és darabszám beállítása -->
                 <td>${item.price}</td>
                 <td><img src="img/trash.svg" class="trashbin" data-index="${index}"></td> <!-- Az indexet adatattribútumként tároljuk -->
             </tr>

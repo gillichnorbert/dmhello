@@ -390,7 +390,7 @@ thead {
     z-index: 999;
     justify-content: center;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
     display:flex;
     flex-wrap: wrap;
     justify-content: flex-start; /* A tartalmat balra igazítjuk a sorokban */
@@ -398,22 +398,21 @@ thead {
 
 }
 
-.categoryFilter {
+/*#categoryFilter {
     
-    margin-bottom: 10px;
-    height: 80px;
-    width: 69%;
+
 
 
 }
-
+*/
 #backButton {
     height: 97%;
     width: 250px;
 }
 
-.btn {
-    height: 100%;
+.categoryButton .btn {
+    margin-top: 5px;
+    height: 70%;
 }
 
 .d-flex {
