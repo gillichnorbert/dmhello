@@ -11,6 +11,22 @@ const multiplyButton3 = document.getElementById("szorzas3");
 const multiplyButton4 = document.getElementById("szorzas4");
 const multiplyInput = document.getElementById("multiplyInput");
 
+const categoryTranslations = {
+    "Soda": "Üdítő",
+    "Shot": "Rövidital",
+    "Longdrink": "Longdrink",
+    "Water": "Víz",
+    "Cocktail": "Koktél",
+    "Cup": "Pohár",
+    "Other": "Egyéb",
+    "Beer": "Sör",
+    "Energydrink": "Energiaital",
+    "Spritz": "Fröccs, Bor",
+    "Wine": "Bor",
+    "Champagne": "Pezsgő"
+  };
+  
+
 multiplyButton2.addEventListener("click", () =>{
     if (itemList.length > 0) {
         const lastItem = itemList[itemList.length - 1];
